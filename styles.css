@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #445060;
+    color: #fff;
+}
+
+#number1, #number2, #output1, #output2 {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+#calculate {
+    background-color: #ffa600;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+}
